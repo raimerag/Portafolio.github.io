@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-principal">
+        <div class="nav-list">
+          <a href="./index.html">Inicio</a>
+          <a href="#sobre-mi">Sobre mi</a>
+          <a href="#paginas">Paginas</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+
+      <div class="contenido-header">
+        <div class="imagen-header">
+          <img src="./imagenes/portada.jpg" alt="" />
+        </div>
+        <div class="info-header">
+          <a href="./index.html">
+            <h1 class="titulo-header">Raimer Aguilar</h1>
+          </a>
+          <ul>
+            <li class="claro">Edad: 28 años</li>
+            <li class="claro">Direccion: Santiago, Chile</li>
+            <li class="claro">Experiencia: 2 añoss</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tecnologias claro">
+        <h2 class="centrar">tecnologias</h2>
+        <div class="tecnologias-iconos">
+          <i class="fa-brands fa-html5 icono"></i>
+          <i class="fa-brands fa-css3-alt icono"></i>
+          <i class="fa-brands fa-square-js icono"></i>
+          <i class="fa-brands fa-react icono"></i>
+
+          <i class="fa-brands fa-node icono"></i>
+          <i class="fa-brands fa-sass icono"></i>
+          <i class="fa-brands fa-gulp icono"></i>
+          <i class="fa-brands fa-github icono"></i>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre-mi" class="sobre-mi">
+      <h2 class="claro">SOBRE MI</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, eos.
+        Vero dolore porro perspiciatis, assumenda tenetur animi, quis, ratione
+        ipsum quam mollitia rerum repudiandae corporis. <br> Quos aliquam ad
+        asperiores eveniet.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quod omnis distinctio fugit veritatis dolor assumenda ab quos soluta porro ipsum cupiditate voluptatibus, at, vitae, minima excepturi! Quisquam, harum.
+      </p>
+    </section>
+
+    <section id="paginas" class="contenido-paginas contenedor">
+      <h2 class="claro">paginas</h2>
+      <p class="claro">Algunas paginas en las que he trabajado</p>
+
+      <div class="seccion-paginas">
+        <div class="paginas">
+          <a href="https://superb-faun-985f10.netlify.app/" target="_blank">
+            <img src="./imagenes/blog1.webp" alt="imagen blog de cafe" />
+          </a>
+          <div class="paginas-info">
+            <h3>Blog de Cafe</h3>
+            <p class="centrar">Pagina Web diseñada bajo el concepto de tienda de cafe</p>
+          </div>
+        </div>
+        <div class="paginas">
+          <a href="https://raiproject1.netlify.app/" target="_blank">
+            <img src="./imagenes/freelance.jpg" alt="imagen blog de cafe" />
+          </a>
+          <div class="paginas-info">
+            <h3>Freelancer</h3>
+            <p class="centrar">Pagina Web diseñada bajo el concepto de programador freelancer</p>
+          </div>
+        </div>
+        <div class="paginas">
+          <a href="https://raiproyect3.netlify.app/" target="_blank">
+            <img src="./imagenes/rock&festival.jpg" alt="imagen rock&fesival" />
+          </a>
+          <div class="paginas-info">
+            <h3>Festival</h3>
+            <p>
+              Pagina Web diseñada bajo el concepto de venta de
+              boletos para eventos
+            </p>
+          </div>
+        </div>
+        <div class="paginas">
+          <a href="https://raiproject2.netlify.app/">
+            <img src="./imagenes/store.jpg" alt="imagen blog de cafe" />
+          </a>
+          <div class="paginas-info">
+            <h3>Store</h3>
+            <p>
+              Pagina Web diseñada bajo el concepto de tienda de venta de Ropa
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2 class="centrar-texto claro">Contacto</h2>
+
+      <form class="formulario">
+        <div class="campo">
+          <label class="campo__label claro" for="nombre">Nombre</label>
+          <input
+            class="campo__field"
+            type="text"
+            placeholder="TU NOMBRE"
+            id="nombre"
+          />
+        </div>
+        <div class="campo">
+          <label class="campo__label claro" for="email">E-mail</label>
+          <input
+            class="campo__field"
+            type="email"
+            placeholder="TU CORREO"
+            id="email"
+          />
+        </div>
+        <div class="campo">
+          <label class="campo__label claro" for="mensaje">Mensaje</label>
+          <textarea
+            class="campo__field--textarea"
+            name=""
+            id="mensaje"
+            cols="30"
+            rows="1"
+          ></textarea>
+        </div>
+        <div class="boton-contacto">
+          <input type="submit" value="enviar" class="boton-contacto" />
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>Raimer Aguilar. Todos los dereechos reservados 2024 &copy;</p>
+    </footer>
+  </body>
+</html>

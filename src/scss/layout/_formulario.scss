@@ -1,0 +1,27 @@
+.formulario{
+    padding:0 10rem;
+} 
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+    margin-right: 1rem ;
+   
+}
+
+.campo__field{
+    flex: 1;
+    border: 1px solid white;
+
+}
+
+.campo__field--textarea{
+    height: 10rem;
+}
+

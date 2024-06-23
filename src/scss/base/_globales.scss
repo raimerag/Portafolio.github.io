@@ -1,0 +1,77 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: v.$oscuro;
+    font-family: v.$fuente_principal;
+    font-size: 1.6rem;
+}
+p {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h1, h2, h3 {
+    margin: 0 0 5rem 0;
+    font-weight: 900;
+    background: linear-gradient(90deg, hsl(44, 91%, 44%) -2.4%, #8a4d15 102.07%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: v.$claro;
+}
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    padding: 10rem 2.5rem;
+    background-color: v.$gris ;
+    border-radius: 2rem;
+    text-align: center;
+    width: 80%;
+    max-width: 120rem;
+    margin: 3rem auto;
+    
+
+}
+
+
+.claro{
+    color: v.$claro;
+}
+
+.centrar{
+    text-align: center;
+}

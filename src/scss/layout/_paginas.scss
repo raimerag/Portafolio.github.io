@@ -1,0 +1,28 @@
+@use 'base/variables' as v;
+
+.contenido-paginas h2{
+    margin-bottom: 1rem;
+}
+.seccion-paginas{
+    display: flex;
+    gap: 2rem;
+    padding: 0 1rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+
+}
+.paginas img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.paginas h3{
+    margin-bottom: 0;
+
+}
+
+
+
