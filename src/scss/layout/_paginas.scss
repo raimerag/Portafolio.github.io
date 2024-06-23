@@ -1,22 +1,39 @@
 @use 'base/variables' as v;
 
+
 .contenido-paginas h2{
     margin-bottom: 1rem;
 }
 .seccion-paginas{
     display: flex;
-    gap: 2rem;
-    padding: 0 1rem;
-    align-items: center;
-    align-content: center;
+    margin-top: 4rem;
     justify-content: space-around;
-    margin-top: 5rem;
-
+    padding: 1rem;
+    
 }
-.paginas img{
-    width: 20rem;
-    height: 15rem;
+.paginas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.imagenes-paginas img{
+    width: 100%;
+    height: 100%;
     border-radius: 1rem;
+}
+
+.imagenes-paginas{
+    width: 12rem;
+    height: 12rem;
+}
+
+.paginas-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .paginas h3{
